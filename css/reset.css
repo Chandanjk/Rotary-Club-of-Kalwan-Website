@@ -1,0 +1,155 @@
+/* To remove all margins and paddings */
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+h1,p
+{
+	margin: 0;		/*This is done as bootstrap adds margins and paddings and to get rid of that*/
+	padding: 0;
+}
+
+h1
+{
+	font-size: 48px;
+	font-weight: bold;
+}
+
+h2
+{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+h3
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+ul,li
+{
+	list-style: none;
+}
+
+.white
+{
+	color: #fff;		/* Default class to make text color white */
+}
+
+.grey
+{
+	color: #CCCCFF;
+}
+
+.center
+{
+	text-align: center;		/* Default class to make text centered aligned */
+}
+
+.right
+{
+	text-align: right;		/* Default class to make text right aligned */
+}
+
+.left
+{
+	text-align: left;		/* Default class to make text left aligned */
+}
+
+.primary
+{
+	color: #d35400;			/* Default class for text color */
+}
+
+.primary-bg
+{
+	background-color: #d35400;		/* Default class for background color */
+}
+
+.secondary
+{
+	color: #3498db;
+}
+
+.secondary-bg
+{
+	background-color: #3498db;
+}
+
+a,a:active
+{
+	text-decoration: none;		/* To remove the underline from anchor tag */
+	color: #d35400;
+}
+
+a:hover,a:focus,.btn:hover,.btn:focus
+{
+	text-decoration: none;		/* To remove the underline from anchor tag */
+	color: #fff;	
+}
+
+.transparent-bg
+{
+	background-color: rgba(0,0,0,0.6);		/* To make the background transparent */
+}
+
+.italic
+{
+	font-style: italic;
+}
+
+.bold
+{
+	font-style: bold;
+}
+ 
+ .margin-bottom
+ {
+ 	margin-bottom: 20px;
+ }
+
+ .margin-top
+ {
+ 	margin-top: 20px;
+ }
+
+ .margin-left
+ {
+ 	margin-left: 20px;
+ }
+
+ .margin-right
+ {
+ 	margin-right: 20px;
+ }
+
+ .make-inline
+ {
+ 	display: inline-block;
+ }
+
+ .float-right
+ {
+ 	float: right;
+ }
+
+ .float-left
+ {
+ 	float: left;
+ }
+
+ .size-max
+ {
+ 	height: 100%;
+ 	width: 100%;
+ }
